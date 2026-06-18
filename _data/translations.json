@@ -1,0 +1,128 @@
+{
+  "en": {
+    "site_title": "RE:mix",
+    "site_subtitle": "The on-line book!",
+    "version": "1.7.10-1.21.11",
+    "links_header": "Links",
+    "home_nav": "Home",
+    "youtube_nav": "YouTube",
+    "book_header": "Book",
+    "rules_nav": "Rules",
+    "spawn_protection_nav": "Spawn Protection",
+    "by_margarina": "by <span class=\"margarina\">Margarina Inc.</span>",
+    "index_title": "Welcome to RE:mix",
+    "index_p1": "RE:mix is a survival multiplayer Minecraft server founded by Margarina. To play with us you have to get on the whitelist, and you can do so by emailing <a href=\"mailto:adrianvictor+remix@disroot.org\">adrianvictor+remix@disroot.org</a> so we can talk about the matter.",
+    "index_p2": "The server is composed of several other previous servers of Margarina (most notably the previously public MargarinaCraft server) welded together by chunk transplant.",
+    "index_p3": "Gameplay experience is similar to our QuaseVanilla series, consisting of server-side plugins that provide an augmented experience on top of vanilla Minecraft, with all mods being optional. We have an optional official modpack on Modrinth, and please note that the modpack does not follow the server update schedule and may be versions ahead, like when the Tiny Takeover update dropped, there was not enough server-side changes to justify a full server upgrade, thus it comes with ViaFabric so you can change the client version to match the server version on the multiplayer screen.",
+    "index_plugins_title": "All gameplay changing plugins are listed below:",
+    "index_p4": "Other plugins that are either optional (meaning that you don't need to interact with if you want to) or invisible to normal players can be found in the plugin session of the book.",
+    "plugins": {
+      "ElytraEssentials": {
+        "dt": "ElytraEssentials",
+        "dd": "Used to nerf elytras to 50km/h and optionally merge an elytra with armor."
+      },
+      "BeaconPotionPlugin": {
+        "dt": "BeaconPotionPlugin",
+        "dd": "Changes behavior of beacons to accept potions as effect input, bringing more effect variety while enhancing immersion."
+      },
+      "CrazyEnchantments": {
+        "dt": "CrazyEnchantments",
+        "dd": "Optional additional enchantments through the `/ce` command. Extremely trimmed down due to overpowered enchantments without enough customization."
+      },
+      "Eye of Nemesis": {
+        "dt": "Eye of Nemesis",
+        "dd": "Event control system, used to block new features on beta chunks, ensuring those regions remain with beta aesthetic and gameplay. Also used to protect the spawn."
+      },
+      "ItemEconomy": {
+        "dt": "ItemEconomy",
+        "dd": "Allows `/pay`, `/tpa` and waystone warps to cost diamonds. Your balance can be queried with `/balance` and takes into account your ender chest. (1 diamond = $1)"
+      },
+      "WaystoneWarps": {
+        "dt": "WaystoneWarps",
+        "dd": "Adds the ability to create customizable structures that can be discovered by other players then teleported to with a compass for $15."
+      },
+      "TimeKeeper": {
+        "dt": "TimeKeeper",
+        "dd": "Syncs the game time with the real world `America/Sao_Paulo` timezone. Phantoms are disabled and their membranes can be crafted with leather, feather and rotten flash."
+      },
+      "SweetDreams": {
+        "dt": "SweetDreams",
+        "dd": "Since sleeping is disable, entering a bed in the night time will transport you to a brand new dream world, made of infinite skylands for you to survive. Former MargarinaCraft players are probably familiar with this."
+      }
+    },
+    "rules_title": "Rules",
+    "rules": [
+      "No griefing",
+      "No cheating",
+      "No discrimination against other players",
+      "Respect other players space",
+      "Don't try to repetitively make the experience for one one many players bad; report your issues to the moderation instead."
+    ],
+    "spawn_title": "Spawn Protection",
+    "spawn_p1": "The RE:mix spawn is a 14400m² square (120x120) centered at coordinate 0, 0, it's protected from top to bottom of the world. You cannot break nor place blocs, or take books from the lecturn; mobs cannot spawn and endermans don't get angry on eye contact.",
+    "spawn_p2": "Ones restriction will be ignored if it is an authorized spawn editor."
+  },
+  "pt": {
+    "site_title": "RE:mix",
+    "site_subtitle": "O livro online!",
+    "version": "1.7.10-1.21.11",
+    "links_header": "Links",
+    "home_nav": "Início",
+    "youtube_nav": "YouTube",
+    "book_header": "Livro",
+    "rules_nav": "Regras",
+    "spawn_protection_nav": "Proteção do Spawn",
+    "by_margarina": "por <span class=\"margarina\">Margarina Inc.</span>",
+    "index_title": "Bem-vindo ao RE:mix",
+    "index_p1": "O RE:mix é um servidor de Minecraft survival multiplayer fundado pela Margarina. Para jogar conosco você precisa entrar na whitelist, e pode fazer isso enviando um e-mail para <a href=\"mailto:adrianvictor+remix@disroot.org\">adrianvictor+remix@disroot.org</a> para conversarmos sobre o assunto.",
+    "index_p2": "O servidor é composto por diversos outros servidores anteriores da Margarina (mais notadamente o servidor anteriormente público MargarinaCraft) conectados por meio de transplante de chunks.",
+    "index_p3": "A experiência de jogo é semelhante à nossa série QuaseVanilla, consistindo em plugins no lado do servidor que fornecem uma experiência aprimorada sobre o Minecraft vanilla, sendo todos os mods opcionais. Temos um modpack oficial opcional no Modrinth, e observe que o modpack não segue o cronograma de atualizações do servidor e pode estar versões à frente, como quando a atualização Tiny Takeover foi lançada, não houve mudanças suficientes no servidor para justificar uma atualização completa do servidor, por isso ele vem com o ViaFabric para que você possa alterar a versão do cliente para corresponder à versão do servidor na tela de multiplayer.",
+    "index_plugins_title": "Todos os plugins que alteram a jogabilidade estão listados abaixo:",
+    "index_p4": "Outros plugins que são opcionais (você não precisa interagir se não quiser) ou invisíveis para os jogadores normais são encontrados na seção de plugins do livro.",
+    "plugins": {
+      "ElytraEssentials": {
+        "dt": "ElytraEssentials",
+        "dd": "Usado para limitar as elytras a 50km/h e, opcionalmente, fundir uma elytra com armadura."
+      },
+      "BeaconPotionPlugin": {
+        "dt": "BeaconPotionPlugin",
+        "dd": "Altera o comportamento dos sinalizadores (beacons) para aceitar poções como entrada de efeito, trazendo mais variedade de efeitos e aumentando a imersão."
+      },
+      "CrazyEnchantments": {
+        "dt": "CrazyEnchantments",
+        "dd": "Encantamentos adicionais opcionais através do comando `/ce`. Extremamente reduzido devido a encantamentos muito fortes sem customização suficiente."
+      },
+      "Eye of Nemesis": {
+        "dt": "Eye of Nemesis",
+        "dd": "Sistema de controle de eventos, usado para bloquear novos recursos em chunks beta, garantindo que essas regiões permaneçam com a estética e jogabilidade beta. Também usado para proteger o spawn."
+      },
+      "ItemEconomy": {
+        "dt": "ItemEconomy",
+        "dd": "Permite que `/pay`, `/tpa` e teleportes de marcos de caminho (waystones) custem diamantes. Seu saldo pode ser consultado com `/balance` e leva em consideração seu baú do fim (ender chest). (1 diamante = $1)"
+      },
+      "WaystoneWarps": {
+        "dt": "WaystoneWarps",
+        "dd": "Adiciona a capacidade de criar estruturas personalizáveis que podem ser descobertas por outros jogadores e depois teletransportadas com uma bússola por $15."
+      },
+      "TimeKeeper": {
+        "dt": "TimeKeeper",
+        "dd": "Sincroniza o tempo de jogo com o fuso horário real de `America/Sao_Paulo`. Phantoms estão desativados e suas membranas podem ser fabricadas com couro, pena e carne podre."
+      },
+      "SweetDreams": {
+        "dt": "SweetDreams",
+        "dd": "Como as camas estão desativadas, entrar em uma à noite o transportará para um mundo de sonhos totalmente novo, feito de ilhas flutuantes infinitas (skylands) para você sobreviver. Os antigos jogadores do MargarinaCraft provavelmente estão acostumados com isso."
+      }
+    },
+    "rules_title": "Regras",
+    "rules": [
+      "Sem griefing",
+      "Sem cheats",
+      "Sem discriminação contra players",
+      "Respeite o espaço dos outros jogadores",
+      "Não faça ações repetitivas para tornar a experiência de outro(s) players ruim; ao invés disso reporte desavenças para a moderação."
+    ],
+    "spawn_title": "Proteção do Spawn",
+    "spawn_p1": "O spawn do RE:mix é um quadrado de 14400m² (120x120) com o centro nas coordenadas 0, 0, ele é protegido do topo do mundo até a última camada. Você não pode quebrar ou colocar blocos e pegar livros do atril; mobs não podem nascer; endermans não ficam bravos com contato visual.",
+    "spawn_p2": "As restrições de um player são ignoradas quando o player é um editor autorizado do spawn."
+  }
+}

@@ -1,0 +1,12 @@
+---
+layout: base.njk
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/spawn-protection/index.html"
+---
+<h1>{{ translations[locale].spawn_title }}</h1>
+
+<p>{{ translations[locale].spawn_p1 }}</p>
+<p>{{ translations[locale].spawn_p2 }}</p>

@@ -1,0 +1,25 @@
+---
+layout: base.njk
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "{{ locale }}/index.html"
+---
+
+<h1 style="color: var(--GREEN)">{{ translations[locale].index_title }}</h1>
+
+<p>{{ translations[locale].index_p1 | safe }}</p>
+<p>{{ translations[locale].index_p2 }}</p>
+<p>{{ translations[locale].index_p3 }}</p>
+
+<p>{{ translations[locale].index_plugins_title }}</p>
+
+<dl>
+    {% for key, val in translations[locale].plugins %}
+    <dt>{{ val.dt }}</dt>
+    <dd>{{ val.dd }}</dd>
+    {% endfor %}
+</dl>
+
+<p>{{ translations[locale].index_p4 }}</p>
