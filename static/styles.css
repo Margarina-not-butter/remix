@@ -41,6 +41,7 @@ body.light {
 }
 
 body {
+    font-size: small;
     background-color: black;
     color: var(--fg);
     font-family: minecraft;
@@ -74,6 +75,7 @@ aside, main {
 main {
     width: 100%;
     margin-left: calc(16em + 4em);
+    padding: 1em 2em;
 }
 
 aside {
@@ -136,6 +138,7 @@ footer .margarina {
 
 dt {
     font-weight: bold;
+    color: var(--GREEN);
 }
 
 dl, ol, dd {

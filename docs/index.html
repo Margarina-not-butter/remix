@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv="refresh" content="0; url=/remix/en/">
-    <title>Redirecting...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE:mix - Language Selection / Seleção de Idioma</title>
+    <link rel="stylesheet" href="/remix/static/styles.css">
+    <style>
+        .splash-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            padding: 2em;
+        }
+        .splash-title {
+            font-size: 3em;
+            color: var(--GREEN);
+            margin-bottom: 0.1em;
+            text-shadow: 3px 3px 0px var(--DARK_GREEN);
+        }
+        .splash-subtitle {
+            font-size: 1.2em;
+            color: var(--GRAY);
+            margin-bottom: 2.5em;
+        }
+        .lang-options {
+            display: flex;
+            gap: 2em;
+        }
+        .lang-option-btn {
+            background-color: var(--DARK_GRAY);
+            border: 2px solid var(--WHITE);
+            color: var(--WHITE);
+            padding: 1em 2.5em;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 0 var(--bg);
+        }
+        .lang-option-btn:hover {
+            background-color: var(--GRAY);
+            color: var(--WHITE);
+            border-color: var(--YELLOW);
+        }
+        .lang-option-btn:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 0 var(--bg);
+        }
+    </style>
 </head>
-<body>
-    <p>Redirecting to <a href="/remix/en/">English version</a>...</p>
+<body class="splash-body">
+    <div class="splash-container">
+        <h1 class="splash-title">RE:mix</h1>
+        <p class="splash-subtitle">Choose your language / Escolha seu idioma</p>
+        <div class="lang-options">
+            <a href="/remix/en/" class="lang-option-btn">English</a>
+            <a href="/remix/pt/" class="lang-option-btn">Português</a>
+        </div>
+    </div>
 </body>
 </html>
