@@ -6,9 +6,9 @@ title: "RE:mix"
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="/static/styles.css">
-    <link rel="stylesheet" href="/static/switch.css">
-    <script src="/static/theme.js" defer></script>
+    <link rel="stylesheet" href="{{ '/static/styles.css' | url }}">
+    <link rel="stylesheet" href="{{ '/static/switch.css' | url }}">
+    <script src="{{ '/static/theme.js' | url }}" defer></script>
 </head>
 <body>
     <noscript>
@@ -40,21 +40,21 @@ title: "RE:mix"
                 </label>
                 
                 <div class="lang-switcher">
-                    <a href="{{ page.url | replace('/' + locale + '/', '/en/') }}" class="lang-btn {% if locale == 'en' %}active{% endif %}">EN</a>
+                    <a href="{{ page.url | replace('/' + locale + '/', '/en/') | url }}" class="lang-btn {% if locale == 'en' %}active{% endif %}">EN</a>
                     <span class="lang-divider">|</span>
-                    <a href="{{ page.url | replace('/' + locale + '/', '/pt/') }}" class="lang-btn {% if locale == 'pt' %}active{% endif %}">PT</a>
+                    <a href="{{ page.url | replace('/' + locale + '/', '/pt/') | url }}" class="lang-btn {% if locale == 'pt' %}active{% endif %}">PT</a>
                 </div>
             </header>
             
             <p>{{ translations[locale].links_header }}</p>
 
-            <p><a href="/{{ locale }}/">{{ translations[locale].home_nav }}</a></p>
+            <p><a href="{{ ('/' + locale + '/') | url }}">{{ translations[locale].home_nav }}</a></p>
             <p class="last"><a href="https://www.youtube.com/@uwontbelieveitsnotbutter">{{ translations[locale].youtube_nav }}</a></p>
             
             <p>{{ translations[locale].book_header }}</p>
 
-            <p><a href="/{{ locale }}/rules/">{{ translations[locale].rules_nav }}</a></p>
-            <p><a href="/{{ locale }}/spawn-protection/">{{ translations[locale].spawn_protection_nav }}</a></p>
+            <p><a href="{{ ('/' + locale + '/rules/') | url }}">{{ translations[locale].rules_nav }}</a></p>
+            <p><a href="{{ ('/' + locale + '/spawn-protection/') | url }}">{{ translations[locale].spawn_protection_nav }}</a></p>
             
             <footer>
                 <p><a>{{ translations[locale].by_margarina | safe }}</a></p>

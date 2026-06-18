@@ -1,6 +1,6 @@
 @font-face {
   font-family: minecraft;
-  src: url("/static/fonts/minecraft-font/minecraft-regular.otf");
+  src: url("./fonts/minecraft-font/minecraft-regular.otf");
 }
 
 :root {
@@ -50,7 +50,7 @@ body {
 
 body::before {
     transition: .4s;
-    background: url("/static/images/dirt.png");
+    background: url("./images/dirt.png");
     background-position: 0 0;
     background-size: 5vw 5vw;
     position: fixed;
