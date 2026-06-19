@@ -1,8 +1,8 @@
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RE:mix - Início</title>
+    <title>RE:mix - Plugins</title>
     <link rel="stylesheet" href="/remix/static/styles.css">
     <link rel="stylesheet" href="/remix/static/switch.css">
     <script src="/remix/static/theme.js" defer></script>
@@ -20,7 +20,7 @@
         <aside>
             <header>
                 <h1>RE:mix</h1>
-                <p>O livro online!</p>
+                <p>The on-line book!</p>
                 <p>1.7.10-1.21.11</p>
                 
                 <label class="switch">
@@ -37,52 +37,79 @@
                 </label>
                 
                 <div class="lang-switcher">
-                    <a href="/remix/en/" class="lang-btn ">EN</a>
+                    <a href="/remix/en/plugins/" class="lang-btn active">EN</a>
                     <span class="lang-divider">|</span>
-                    <a href="/remix/pt/" class="lang-btn active">PT</a>
+                    <a href="/remix/pt/plugins/" class="lang-btn ">PT</a>
                 </div>
             </header>
             
             <p>Links</p>
 
-            <p><a href="/remix/pt/">Início</a></p>
+            <p><a href="/remix/en/">Home</a></p>
             <p class="last"><a href="https://www.youtube.com/@uwontbelieveitsnotbutter">YouTube</a></p>
             
-            <p>Livro</p>
+            <p>Book</p>
 
-            <p><a href="/remix/pt/rules/">Regras</a></p>
-            <p><a href="/remix/pt/spawn-protection/">Proteção do Spawn</a></p>
-            <p><a href="/remix/pt/plugins/">Plugins</a></p>
+            <p><a href="/remix/en/rules/">Rules</a></p>
+            <p><a href="/remix/en/spawn-protection/">Spawn Protection</a></p>
+            <p><a href="/remix/en/plugins/">Plugins</a></p>
             
             <footer>
-                <p><a>por <span class="margarina">Margarina Inc.</span></a></p>
+                <p><a>by <span class="margarina">Margarina Inc.</span></a></p>
             </footer>
         </aside>
         <main>
-            <h1 style="color: var(--GREEN)">Bem-vindo ao RE:mix</h1>
-<p>O RE:mix é um servidor de Minecraft survival multiplayer fundado pela Margarina. Para jogar conosco você precisa entrar na whitelist, e pode fazer isso enviando um e-mail para <a href="mailto:adrianvictor+remix@disroot.org">adrianvictor+remix@disroot.org</a> para conversarmos sobre o assunto.
-O servidor é composto por diversos outros servidores anteriores da Margarina (mais notadamente o servidor anteriormente público MargarinaCraft) conectados por meio de transplante de chunks.</p>
-<p>A experiência de jogo é semelhante à nossa série QuaseVanilla, consistindo em plugins no lado do servidor que fornecem uma experiência aprimorada sobre o Minecraft vanilla, sendo todos os mods opcionais. Temos um modpack oficial opcional no Modrinth, e observe que o modpack não segue o cronograma de atualizações do servidor e pode estar versões à frente, como quando a atualização Tiny Takeover foi lançada, não houve mudanças suficientes no servidor para justificar uma atualização completa do servidor, por isso ele vem com o ViaFabric para que você possa alterar a versão do cliente para corresponder à versão do servidor na tela de multiplayer.</p>
-<p>Todos os plugins que alteram a jogabilidade estão listados abaixo:</p>
+            <h1>Plugins</h1>
 <dl>
-    <dt>ElytraEssentials</dt>
-    <dd>Usado para limitar as elytras a 50km/h e, opcionalmente, fundir uma elytra com armadura.</dd>
+    <dt>emotecraft</dt>
+    <dd>Enables multiplayer functionality for the emote mod with the same name.</dd>
+    <dt>Veinminer-Enchantment</dt>
+    <dd>Adds a enchantment called Veinmine that makes a pickaxe break several blocks of ore at once.</dd>
+    <dt>AnvilColors</dt>
+    <dd>Makes the use of color codes in a anvil possible.</dd>
+    <dt>AuthMe</dt>
+    <dd>Login system.</dd>
     <dt>BeaconPotionPlugin</dt>
-    <dd>Altera o comportamento dos sinalizadores (beacons) para aceitar poções como entrada de efeito, trazendo mais variedade de efeitos e aumentando a imersão.</dd>
+    <dd>Changes behavior of beacons to accept potions as effect input, bringing more effect variety while enhancing immersion.</dd>
+    <dt>Clumps</dt>
+    <dd>Groups experience orbs together to reduce lag.</dd>
+    <dt>CouponCodes</dt>
+    <dd>Adds coupon codes that can be redeemed for a reward. Redeem codes with <code>redeem</code>.</dd>
     <dt>CrazyEnchantments</dt>
-    <dd>Encantamentos adicionais opcionais através do comando <code>ce</code>. Extremamente reduzido devido a encantamentos muito fortes sem customização suficiente.</dd>
+    <dd>Optional additional enchantments through the <code>ce</code> command. Extremely trimmed down due to overpowered enchantments without enough customization.</dd>
+    <dt>DecentHolograms</dt>
+    <dd>Uses to make the multiple language hologram in the spawn linking to our website.</dd>
+    <dt>DontKillFriends</dt>
+    <dd>Makes tamed wolfs less persistent at defending their owner from other players.</dd>
+    <dt>ElytraEssentials</dt>
+    <dd>Used to nerf elytras to 50km/h and optionally merge an elytra with armor.</dd>
+    <dt>Essentials with EssentialsChat</dt>
+    <dd>Provides the following commands available to everyone: <code>tpa</code>, <code>reply</code>, <code>mail</code> and <code>suicide</code>.</dd>
     <dt>Eye of Nemesis</dt>
-    <dd>Sistema de controle de eventos, usado para bloquear novos recursos em chunks beta, garantindo que essas regiões permaneçam com a estética e jogabilidade beta. Também usado para proteger o spawn.</dd>
+    <dd>Event control system, used to block new features on beta chunks, ensuring those regions remain with beta aesthetic and gameplay. Also used to protect the spawn.</dd>
+    <dt>floodgate</dt>
+    <dd>Allows bedrock players to join without a Minecraft Java account.</dd>
+    <dt>FreedomChat</dt>
+    <dd>Disables chat reporting.</dd>
+    <dt>Geyser-Spigot</dt>
+    <dd>Allows bedrock players to join.</dd>
     <dt>ItemEconomy</dt>
-    <dd>Permite que <code>pay</code>, <code>tpa</code> e teleportes de marcos de caminho (waystones) custem diamantes. Seu saldo pode ser consultado com <code>balance</code> e leva em consideração seu baú do fim (ender chest). (1 diamante = $1)</dd>
-    <dt>WaystoneWarps</dt>
-    <dd>Adiciona a capacidade de criar estruturas personalizáveis que podem ser descobertas por outros jogadores e depois teletransportadas com uma bússola por $15.</dd>
-    <dt>TimeKeeper</dt>
-    <dd>Sincroniza o tempo de jogo com o fuso horário real de <code>America/Sao_Paulo</code>. Phantoms estão desativados e suas membranas podem ser fabricadas com couro, pena e carne podre.</dd>
+    <dd>Enables diamond as server currency and the command <code>pay</code>, allows <code>tpa</code> and waystone warps to cost diamonds. Your balance can be queried with <code>balance</code> and takes into account your ender chest. (1 diamond = $1)</dd>
+    <dt>SkinRestorer</dt>
+    <dd>Allows players to change their skins with the <code>skin</code> command.</dd>
     <dt>SweetDreams</dt>
-    <dd>Como as camas estão desativadas, entrar em uma à noite o transportará para um mundo de sonhos totalmente novo, feito de ilhas flutuantes infinitas (skylands) para você sobreviver. Os antigos jogadores do MargarinaCraft provavelmente estão acostumados com isso.</dd>
+    <dd>Entering a bed in the night time will transport you to a brand new dream world, made of infinite skylands for you to survive.</dd>
+    <dt>TintedBeacons</dt>
+    <dd>Allows you to supress the beam of beacons by placing a tinted glass on top of the beam.</dd>
+    <dt>TimeKeeper</dt>
+    <dd>Syncs the game time with the real world <code>America/Sao_Paulo</code> timezone. Phantoms are disabled and their membranes can be crafted with leather, feather and rotten flash.</dd>
+    <dt>ViaVersion with ViaRewind, ViaBackwards, ViaAprilFools</dt>
+    <dd>Allows players to join on older versions down to 1.7.10, though the player falls infinitely below 0 on versions before Caves and Cliffs.</dd>
+    <dt>Voicechat</dt>
+    <dd>Enables in-game call functionality.</dd>
+    <dt>WaystoneWarps</dt>
+    <dd>Adds the ability to create customizable structures that can be discovered by other players then teleported to with a compass for $15.</dd>
 </dl>
-<p>Outros plugins que são opcionais (você não precisa interagir se não quiser) ou invisíveis para os jogadores normais são encontrados na seção de plugins do livro.</p>
 
         </main>
     </div>

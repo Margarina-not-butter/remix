@@ -38,6 +38,7 @@ body.light {
     --BLUE: var(--DARK_BLUE);
     --GREEN: var(--DARK_GREEN);
     --GRAY: var(--BLACK);
+    --DARK_GRAY: #AAAAAA;
 }
 
 body {
@@ -47,6 +48,12 @@ body {
     font-family: minecraft;
     font-smooth: never;
     -webkit-font-smoothing : none;
+}
+
+code {
+    font-family: minecraft;
+    background-color: var(--DARK_GRAY);
+    padding: 0 .4em;
 }
 
 body::before {
